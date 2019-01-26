@@ -34,8 +34,6 @@
 		}
 		.nav_bar{
 			width: 100%;
-			border: 1px solid red;
-			text-align: center;
 		}
 		ul ,li {
 			display: inline;
@@ -44,6 +42,16 @@
 		li{
 			margin-left: 60px;
 			font-size: 1.3em;
+		}
+		.search{
+			position: relative;
+			top: -25px;
+			right: -1000px;		
+		}
+		input{
+			height: 30px;
+			border-radius: 6px;
+			font-size: 1em;
 		}
 
 	</style>
@@ -87,7 +95,7 @@
 	</li>
 </ul>
 <form class="search">
-	<input type="text" name="search">
+	<input type="text" name="search" title="Search Items" placeholder="Search Items">
 	<input type="submit" name="submit" value="Search Now">
 </form>
 </div>
